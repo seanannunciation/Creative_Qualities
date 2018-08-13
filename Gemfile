@@ -17,6 +17,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'react-rails'
 gem 'webpacker', '~> 3.0'
+gem 'tzinfo-data', '1.2014.5'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 group :development, :test do
   gem 'byebug', platform: :mri

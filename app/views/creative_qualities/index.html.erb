@@ -2,12 +2,12 @@
   /*
     Quick way to get creativeQualities to JS.
   */
-  window.qualsJSON = <%== @creative_qualities.to_json %>
+  // window.qualsJSON = <%== @creative_qualities.to_json %>
 
   // If you have skipped Part 1, please comment out the above window.qualsJSON ...
   // and uncomment this to generate the data you need for the React component(s):
   //
-  // window.qualsJSON = <%== mock_creative_quality_scores.to_json %>
+  window.qualsJSON = <%== mock_creative_quality_scores.to_json %>
   //
 </script>
 
@@ -15,7 +15,7 @@
 <div id="react-root">
   <!-- currently just rendering H2 title -->
 </div>
-
+<!--
 <div class="row">
   <div class="col-md-12">
     <div class="row">
@@ -42,4 +42,4 @@
       <% end %>
     </div>
   </div>
-</div>
+</div> -->
